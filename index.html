@@ -54,12 +54,12 @@
     <div>
       <div class="profile-page">
         <div class="wrapper">
-            
-          <div class="page-header page-header-small"  filter-color="green">
+
+          <div class="page-header page-header-small" filter-color="green">
             <div class="page-header-image" data-parallax="true" style="background-image: url('images/buil.jpg')">
             </div>
-            <div class="container" >
-              <div class="content-center" >
+            <div class="container">
+              <div class="content-center">
                 <div class="cc-profile-image"><a href="#"><img src="images/alan.jpg" alt="Image" /></a></div>
                 <div class="h2 title">Alan Atilio Condori Arapa</div>
                 <p class="category text-white">Desarrollador Web</p>
@@ -85,7 +85,7 @@
       <div class="section" id="about">
         <div class="container">
           <div class="card" data-aos="fade-up" data-aos-offset="10" id="esquinaRedondeadad">
-            <div class="row" >
+            <div class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="card-body">
                   <div class="h4 mt-0 title">About</div>
@@ -407,6 +407,47 @@
       <div class="section" id="experience">
         <div class="container cc-experience">
           <div class="h4 text-center mb-4 title">Experiencia</div>
+
+          <div class="container">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+              </div>
+              <div class="panel-body text-center">
+                <!-- Button modal -->
+                <button class="btn-a-degradado btn-round btn-lg center-block" data-toggle="modal"
+                  data-target="#modalForm">
+                  <b>BTCUSD</b>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="modalForm" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Cabecera -->
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                          <span aria-hidden="true">&times;</span>
+                          <span class="sr-only">Cerrar</span>
+                        </button>
+                      </div>
+                      <!-- Precio de btc -->
+                      <main>
+                        1 Bitcoin
+                        <div class="coin-container" id="bitcoin">
+                          <div class="coin bitcoin-item">₿</div>
+                        </div>
+                        =
+                        <span id="usd-amount"></span>
+                        <div class="coin-container" id="dollar">
+                        </div>
+                      </main>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Panel cierra-->
+          </div><br><br>
+          
           <div class="card">
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -536,50 +577,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-          </div>
-
-          <div class="panel-body">
-            <!-- Button modal -->
-            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalForm">
-              BTCUSD
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="modalForm" role="dialog">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Cabecera -->
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
-                      <span aria-hidden="true">&times;</span>
-                      <span class="sr-only">Cerrar</span>
-                    </button>
-                  </div>
-
-                  <!-- Precio de btc -->
-                  <main>
-                    1 Bitcoin
-                    <div class="coin-container" id="bitcoin">
-                      <div class="coin bitcoin-item">₿</div>
-                    </div>
-                    =
-                    <span id="usd-amount"></span>
-                    <div class="coin-container" id="dollar">
-                    </div>
-                  </main>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <!--Panel cierra-->
       </div>
 
       <div class="section" id="contact">
