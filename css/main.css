@@ -1528,6 +1528,10 @@ fieldset[disabled] .navbar .navbar-nav > a.btn.active {
     #00f8ff 100%
   );
 }
+
+#esquinaRedondeadad{
+  border-radius: 20px;
+}
 /*
 .boton:hover {
   --x: 100%;

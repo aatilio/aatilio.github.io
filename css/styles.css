@@ -6,6 +6,7 @@
 
 .modal-content{
   background-color: rgb(181, 227, 213);
+  border-radius: 40px;
 }
 /*este codigo es importante para la posicion*/
 main {
