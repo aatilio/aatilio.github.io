@@ -1958,13 +1958,15 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    color: rgb(6, 6, 6);
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 1px;
+    
 }
 
 .btn-primary:hover {
-    color: #fff;
+    color: rgb(11, 89, 2);
     background-color: #0069d9;
     border-color: #0062cc
 }
@@ -2879,6 +2881,7 @@ tbody.collapse.show {
 
 .input-group-addon {
     padding: .5rem .75rem;
+    /*padding: 10px 50px 10px 50px;*/
     margin-bottom: 0;
     font-size: 1rem;
     font-weight: 400;
