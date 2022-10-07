@@ -1529,57 +1529,6 @@ fieldset[disabled] .navbar .navbar-nav > a.btn.active {
   );
 }
 
-.btn-a-degradado {
-  /*background: var(#650d70);
-  transition: all 300ms linear 0ms;
-  background: linear-gradient(90deg, var(--BotonBackgroundInicio), var(--BotonBackgroundFin) 51%, var(--BotonBackgroundInicio)) var(--x, 0)/ 200%;
-  padding: 1rem 2rem;*/
-  color: #000000;
-  background-image: linear-gradient(
-    75deg,
-    #fae8d3 0,
-    #f6e9d3 3.33%,
-    #f3ebd3 6.67%,
-    #efecd3 10%,
-    #ecedd4 13.33%,
-    #e8eed6 16.67%,
-    #e4efd7 20%,
-    #e0efd9 23.33%,
-    #ddf0dc 26.67%,
-    #daf1df 30%,
-    #d6f1e2 33.33%,
-    #d4f2e5 36.67%,
-    #d1f2e8 40%,
-    #cff2eb 43.33%,
-    #cef2ef 46.67%,
-    #cdf2f2 50%,
-    #cdf2f5 53.33%,
-    #cdf1f8 56.67%,
-    #cef1fb 60%,
-    #d0f0fd 63.33%,
-    #d2efff 66.67%,
-    #d4efff 70%,
-    #d7eeff 73.33%,
-    #dbedff 76.67%,
-    #dfecff 80%,
-    #e3ebff 83.33%,
-    #e7eaff 86.67%,
-    #ebe8ff 90%,
-    #efe7ff 93.33%,
-    #f3e6fd 96.67%,
-    #f6e5fb 100%
-  );
-}
-
-.bg-a-contacto-form{
-  background-color: #e8f0fe;
-  margin: auto;
-  padding: auto;
-}
-
-#esquinaRedondeadad {
-  border-radius: 20px;
-}
 /*
 .boton:hover {
   --x: 100%;

@@ -4,7 +4,7 @@
   color: hsl(0, 0%, 0%);
 }
 
-.modal-content{
+.modal-content {
   background-color: rgb(181, 227, 213);
   border-radius: 40px;
 }
@@ -12,7 +12,6 @@
 main {
   max-width: 250px;
   margin: 100px auto;
-  
 }
 
 .coin-container {
@@ -61,3 +60,169 @@ main {
   align-items: center;
 }
 
+/*css personalisado*/
+
+* {
+  font-family: arial;
+  text-align: center;
+}
+
+.bg-a-mate-oscuro{
+  /*top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);*/
+  background-image: linear-gradient(
+    to right top,
+    #ac2063,
+    #9f2472,
+    #8c2b80,
+    #75338c,
+    #583b94,
+    #3e4292,
+    #23468c,
+    #004883,
+    #00486e,
+    #004355,
+    #1d3c40,
+    #2e3433
+  );
+}
+.ub1 {
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.caja1 {
+  background-color: rgba(24, 28, 73, 0.203);
+  width: 20em;
+  height: auto;
+  position: relative;
+  margin: auto;
+  padding: 2em;
+  border-radius: 1em;
+  color: black;
+}
+input,
+select {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  text-align: left;
+}
+input[type="submit"],
+input[type="reset"] {
+  margin-top: 1.5em;
+  width: 48%;
+  text-align: center;
+}
+input[type="checkbox"] {
+  margin-left: 0;
+  width: 10%;
+}
+
+table {
+  width: 50em;
+  margin: 0;
+  border-collapse: collapse;
+  border: 0.1em solid black;
+  background: #36ae3e;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+td {
+  padding: 1em 2em;
+  border: 0.1em solid black;
+  text-align: center;
+  background: #f3f3f3;
+  font-weight: bold;
+}
+
+th {
+  padding: 1em;
+  border: 0.1em solid black;
+  background-color: #70c1f7;
+}
+.amarillo {
+  font-size: 1em;
+  text-align: center;
+
+  display: inline-block;
+  background-color: #fabd44;
+  padding: 0.5em 0.5em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  color: black;
+  border: 0.1em solid black;
+  cursor: pointer;
+}
+
+.formtlo {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 0.8em;
+  color: rgb(255, 255, 255);
+}
+
+/*--------------------------------------------------*/
+
+
+.btn-a-degradado {
+  /*background: var(#650d70);
+  transition: all 300ms linear 0ms;
+  background: linear-gradient(90deg, var(--BotonBackgroundInicio), var(--BotonBackgroundFin) 51%, var(--BotonBackgroundInicio)) var(--x, 0)/ 200%;
+  padding: 1rem 2rem;*/
+  color: #000000;
+  background-image: linear-gradient(
+    75deg,
+    #fae8d3 0,
+    #f6e9d3 3.33%,
+    #f3ebd3 6.67%,
+    #efecd3 10%,
+    #ecedd4 13.33%,
+    #e8eed6 16.67%,
+    #e4efd7 20%,
+    #e0efd9 23.33%,
+    #ddf0dc 26.67%,
+    #daf1df 30%,
+    #d6f1e2 33.33%,
+    #d4f2e5 36.67%,
+    #d1f2e8 40%,
+    #cff2eb 43.33%,
+    #cef2ef 46.67%,
+    #cdf2f2 50%,
+    #cdf2f5 53.33%,
+    #cdf1f8 56.67%,
+    #cef1fb 60%,
+    #d0f0fd 63.33%,
+    #d2efff 66.67%,
+    #d4efff 70%,
+    #d7eeff 73.33%,
+    #dbedff 76.67%,
+    #dfecff 80%,
+    #e3ebff 83.33%,
+    #e7eaff 86.67%,
+    #ebe8ff 90%,
+    #efe7ff 93.33%,
+    #f3e6fd 96.67%,
+    #f6e5fb 100%
+  );
+}
+
+.bg-a-contacto-form{
+  background-color: #e8f0fe;
+  margin: auto;
+  padding: auto;
+}
+
+#esquinaRedondeadad {
+  border-radius: 20px;
+}
