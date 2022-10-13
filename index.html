@@ -657,9 +657,9 @@
         event.preventDefault()
         const form = new FormData(this)
 
-        fetch(this.action, {
+        const response = await fetch(this.action, {
           method: this.method,
-          body: form,
+          body: form, 
           headers: {
             'Accept': 'application/json'
           }
