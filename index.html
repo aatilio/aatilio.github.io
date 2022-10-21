@@ -673,6 +673,7 @@
     </footer>
 
     <script>
+      //api que devuelbe 200 ok si es que el formulario se envi correctamente
       const $form = document.querySelector('#form')
 
       $form.addEventListener('submit', handleSubmit)
@@ -681,7 +682,7 @@
         event.preventDefault()
         const form = new FormData(this)
 
-        fetch(this.action, {
+        const response = await fetch(this.action, {
           method: this.method,
           body: form,
           headers: {
