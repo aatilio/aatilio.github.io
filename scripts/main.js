@@ -1,3 +1,26 @@
+//BTC USD
+//codigo para hacer usu de la API de coindesk para el precio de BTC
+const dollarContainer = document.getElementById('dollar');
+  const usdAmount = document.getElementById('usd-amount');
+
+  fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .then(response => response.json())
+      .then(data => displayData(data));
+
+  const displayData = data => {
+      const usd = data.bpi.USD.rate_float;
+      usdAmount.textContent = `$${usd} USD`;
+      const totalDollarItems = Math.trunc(usd / 1000);
+      for(let i = 0; i < totalDollarItems; i++) {
+          const newDollar = document.createElement('div');
+          newDollar.setAttribute("style", `animation-delay:.${10 + i}s;`);
+          newDollar.textContent = '$';
+          newDollar.setAttribute('class', 'coin dollar-item');
+          dollarContainer.appendChild(newDollar);
+      } 
+  }
+
+
 //codigo js para el enfoque de las imagenes
 $(document).ready(function() {
   AOS.init( {
@@ -66,50 +89,25 @@ $.ajax({
 //api que devuelbe 200 ok si es que el formulario se envi correctamente
 function envioFormlario() {
   const $form = document.querySelector('#form')
+  $form.addEventListener('submit', handleSubmit)
 
-$form.addEventListener('submit', handleSubmit)
+  async function handleSubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
 
-async function handleSubmit(event) {
-  event.preventDefault()
-  const form = new FormData(this)
-
-  const response = await fetch(this.action, {
-    method: this.method,
-    body: form,
-    headers: {
-      'Accept': 'application/json'
+    const response = await fetch(this.action, {
+      method: this.method,
+      body: form,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    if (response.ok) {
+      this.reset()
+      alert('Gracias por contactarme, te escribiré pronto')
     }
-  })
-  if (response.ok) {
-    this.reset()
-    alert('Gracias por contactarme, te escribiré pronto')
   }
 }
-}
-
-
-//BTC USD
-//codigo para hacer usu de la API de coindesk para el precio de BTC
-const dollarContainer = document.getElementById('dollar');
-const usdAmount = document.getElementById('usd-amount');
-
-fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
-    .then(response => response.json())
-    .then(data => displayData(data));
-
-const displayData = data => {
-    const usd = data.bpi.USD.rate_float;
-    usdAmount.textContent = `$${usd} USD`;
-    const totalDollarItems = Math.trunc(usd / 1000);
-    for(let i = 0; i < totalDollarItems; i++) {
-        const newDollar = document.createElement('div');
-        newDollar.setAttribute("style", `animation-delay:.${10 + i}s;`);
-        newDollar.textContent = '$';
-        newDollar.setAttribute('class', 'coin dollar-item');
-        dollarContainer.appendChild(newDollar);
-    } 
-}
-
 
 //FOOTER
 /*
