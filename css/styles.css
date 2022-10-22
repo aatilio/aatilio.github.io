@@ -8,6 +8,8 @@
   background-color: rgb(181, 227, 213);
   border-radius: 40px;
 }
+
+
 /*este codigo es importante para la posicion*/
 main {
   max-width: 250px;
@@ -88,92 +90,8 @@ main {
     #2e3433
   );
 }
-.ub1 {
-  text-align: left;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 0.5em;
-  margin-top: 0.5em;
-}
-.caja1 {
-  background-color: rgba(24, 28, 73, 0.203);
-  width: 20em;
-  height: auto;
-  position: relative;
-  margin: auto;
-  padding: 2em;
-  border-radius: 1em;
-  color: black;
-}
-input,
-select {
-  width: 100%;
-  padding: 0.5em;
-  font-size: 1em;
-  border-radius: 20px;
-  border: 1px solid black;
-  color: black;
-  text-align: left;
-}
-input[type="submit"],
-input[type="reset"] {
-  margin-top: 1.5em;
-  width: 48%;
-  text-align: center;
-}
-input[type="checkbox"] {
-  margin-left: 0;
-  width: 10%;
-}
-
-table {
-  width: 50em;
-  margin: 0;
-  border-collapse: collapse;
-  border: 0.1em solid black;
-  background: #36ae3e;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-td {
-  padding: 1em 2em;
-  border: 0.1em solid black;
-  text-align: center;
-  background: #f3f3f3;
-  font-weight: bold;
-}
-
-th {
-  padding: 1em;
-  border: 0.1em solid black;
-  background-color: #70c1f7;
-}
-.amarillo {
-  font-size: 1em;
-  text-align: center;
-
-  display: inline-block;
-  background-color: #fabd44;
-  padding: 0.5em 0.5em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  color: black;
-  border: 0.1em solid black;
-  cursor: pointer;
-}
-
-.formtlo {
-  font-size: 2em;
-  font-weight: bold;
-  padding-bottom: 0.8em;
-  color: rgb(255, 255, 255);
-}
 
 /*--------------------------------------------------*/
-
 
 .btn-a-degradado {
   /*background: var(#650d70);
