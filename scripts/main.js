@@ -64,7 +64,8 @@ $.ajax({
 
 //ENVIO DE FORMUALRIO DE CONTACTO USANDO UNA WEB "formspree"
 //api que devuelbe 200 ok si es que el formulario se envi correctamente
-const $form = document.querySelector('#form')
+function envioFormlario() {
+  const $form = document.querySelector('#form')
 
 $form.addEventListener('submit', handleSubmit)
 
@@ -83,6 +84,7 @@ async function handleSubmit(event) {
     this.reset()
     alert('Gracias por contactarme, te escribiré pronto')
   }
+}
 }
 
 
