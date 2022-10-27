@@ -41,6 +41,7 @@ function consultarAPI(moneda, criptomoneda){
         .catch(error => console.log(error));
 }
 
+//escojemos lo que vamos a utilizar
 function mostrarCotizacion(data){
     clearHTML();
     const {PRICE, HIGHDAY, LOWDAY, CHANGEPCT24HOUR, LASTUPDATE} = data;
