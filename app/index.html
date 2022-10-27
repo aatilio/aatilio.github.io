@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML5, CSS3, php">
+    <title> Conversor </title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body class="home">
+    <nav id="boxprinc">
+        <section class="home__content">
+            <h1 class="home__title--vote">Conversor</h1>
+            <h2 class="home__title--name"><b>Ingrese un numero:</b></h2>
+            <form action="ConveTxtRoma.php" method="post">
+                <input class="home__title--input" type="text" name="numero">
+                <h2 class="home__title--name1"><b>Convertir a:</b></h2>
+                <select class="home__title--input1" name="opc">
+                    <option value="1"><b>Numero natural a texto</b></option>
+                    <option value="2"><b>Numero a numero romano</b></option>
+                </select>
+                <button class="home__title--button">Convertir</button>
+            </form>
+        </section><br><br>
+        <footer class="footer">
+            <div class="line"></div>
+            <a href="https://sorian.ml/">© Sorian</a>
+            <script type="text/javascript">
+                copyright = new Date();
+                update = copyright.getFullYear();
+                document.write(" " + update + "   By <b> <i>Alan Atilio ");
+            </script>
+        </footer>
+    </nav>
+</body>
+
+</html>
