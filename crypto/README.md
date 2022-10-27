@@ -7,6 +7,6 @@ https://min-api.cryptocompare.com/documentation
 <br/><br/>
 **Demo**
 
-![image]()
+![image](https://github.com/alanatilio/alanatilio.github.io/blob/main/crypto/cryp.jpg)
 
-<img align="center" display = "block" margin-left = "auto" margin-right = "auto" src="https://github.com/alanatilio/alanatilio/blob/main/api.gif" alt="Gif de Developer"/>
+<img align="center" display = "block" margin-left = "auto" margin-right = "auto" src="https://github.com/alanatilio/alanatilio.github.io/blob/main/crypto/cryp.jpg" alt="Gif de Developer"/>
