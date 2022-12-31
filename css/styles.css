@@ -60,10 +60,40 @@ main {
 
 #footer {
   font-style: normal;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 5em;
+  background-color: #15395d;
+}
+
+#footer span {
+  font-weight: bold;
+  color: #c3ff00;
+  cursor: pointer;
+  margin-left: .3em;
+}
+
+#footer span:hover {
+  font-weight: bold;
+  color: #ffff00;
+  content: "Desarollador";
+  transition: 1s;
+}
+
+
+#footer a{
+  margin-right: .3em;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#footer a:hover{
+  color: rgb(0, 255, 255);
+  transition: .5s;
 }
 
 /*css personalisado*/
