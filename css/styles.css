@@ -4,7 +4,7 @@
   color: hsl(0, 0%, 0%);
 }
 
-#naigation{
+#naigation {
   background-color: rgb(181, 227, 213);
 }
 
@@ -83,7 +83,7 @@ main {
 }
 
 
-#footer a{
+#footer a {
   margin-right: .3em;
   list-style: none;
   text-decoration: none;
@@ -91,7 +91,7 @@ main {
   color: #ffffff;
 }
 
-#footer a:hover{
+#footer a:hover {
   color: rgb(0, 255, 255);
   transition: .5s;
 }
@@ -103,26 +103,24 @@ main {
   /*text-align: center;*/
 }
 
-.bg-a-mate-oscuro{
+.bg-a-mate-oscuro {
   /*top: 50%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);*/
-  background-image: linear-gradient(
-    to right top,
-    #ac2063,
-    #9f2472,
-    #8c2b80,
-    #75338c,
-    #583b94,
-    #3e4292,
-    #23468c,
-    #004883,
-    #00486e,
-    #004355,
-    #1d3c40,
-    #2e3433
-  );
+  background-image: linear-gradient(to right top,
+      #ac2063,
+      #9f2472,
+      #8c2b80,
+      #75338c,
+      #583b94,
+      #3e4292,
+      #23468c,
+      #004883,
+      #00486e,
+      #004355,
+      #1d3c40,
+      #2e3433);
 }
 
 /*--------------------------------------------------*/
@@ -130,77 +128,77 @@ main {
 .bg-a-claro {
   /*background-color: rgb(255, 255, 255);*/
   color: #000000;
-  background-image: linear-gradient(
-    75deg,
-    #fae8d3 0,
-    #f6e9d3 3.33%,
-    #f3ebd3 6.67%,
-    #efecd3 10%,
-    #ecedd4 13.33%,
-    #e8eed6 16.67%,
-    #e4efd7 20%,
-    #e0efd9 23.33%,
-    #ddf0dc 26.67%,
-    #daf1df 30%,
-    #d6f1e2 33.33%,
-    #d4f2e5 36.67%,
-    #d1f2e8 40%,
-    #cff2eb 43.33%,
-    #cef2ef 46.67%,
-    #cdf2f2 50%,
-    #cdf2f5 53.33%,
-    #cdf1f8 56.67%,
-    #cef1fb 60%,
-    #d0f0fd 63.33%,
-    #d2efff 66.67%,
-    #d4efff 70%,
-    #d7eeff 73.33%,
-    #dbedff 76.67%,
-    #dfecff 80%,
-    #e3ebff 83.33%,
-    #e7eaff 86.67%,
-    #ebe8ff 90%,
-    #efe7ff 93.33%,
-    #f3e6fd 96.67%,
-    #f6e5fb 100%
-  );
+  background-image: linear-gradient(75deg,
+      #fae8d3 0,
+      #f6e9d3 3.33%,
+      #f3ebd3 6.67%,
+      #efecd3 10%,
+      #ecedd4 13.33%,
+      #e8eed6 16.67%,
+      #e4efd7 20%,
+      #e0efd9 23.33%,
+      #ddf0dc 26.67%,
+      #daf1df 30%,
+      #d6f1e2 33.33%,
+      #d4f2e5 36.67%,
+      #d1f2e8 40%,
+      #cff2eb 43.33%,
+      #cef2ef 46.67%,
+      #cdf2f2 50%,
+      #cdf2f5 53.33%,
+      #cdf1f8 56.67%,
+      #cef1fb 60%,
+      #d0f0fd 63.33%,
+      #d2efff 66.67%,
+      #d4efff 70%,
+      #d7eeff 73.33%,
+      #dbedff 76.67%,
+      #dfecff 80%,
+      #e3ebff 83.33%,
+      #e7eaff 86.67%,
+      #ebe8ff 90%,
+      #efe7ff 93.33%,
+      #f3e6fd 96.67%,
+      #f6e5fb 100%);
 }
 
 .btn-a-degradado {
   text-align: center;
-  padding: 7px !important;
+  padding: 10px !important;
   color: #000000;
-  background-image: linear-gradient(
-    75deg,
-    #ddf0dc 26.67%,
-    #daf1df 30%,
-    #d6f1e2 33.33%,
-    #d4f2e5 36.67%,
-    #d1f2e8 40%,
-    #cff2eb 43.33%,
-    #cef2ef 46.67%,
-    #cdf2f2 50%,
-    #cdf2f5 53.33%,
-    #cdf1f8 56.67%,
-    #cef1fb 60%,
-    #d0f0fd 63.33%,
-    #d2efff 66.67%,
-    #d4efff 70%,
-    #d7eeff 73.33%,
-    #dbedff 76.67%,
-    #dfecff 80%,
-    #e3ebff 83.33%,
-    #e7eaff 86.67%,
-    #ebe8ff 90%,
-    #efe7ff 93.33%,
-    #f3e6fd 96.67%,
-    #f6e5fb 100%
-  );
+  background-image: linear-gradient(75deg,
+      #ddf0dc 26.67%,
+      #daf1df 30%,
+      #d6f1e2 33.33%,
+      #d4f2e5 36.67%,
+      #d1f2e8 40%,
+      #cff2eb 43.33%,
+      #cef2ef 46.67%,
+      #cdf2f2 50%,
+      #cdf2f5 53.33%,
+      #cdf1f8 56.67%,
+      #cef1fb 60%,
+      #d0f0fd 63.33%,
+      #d2efff 66.67%,
+      #d4efff 70%,
+      #d7eeff 73.33%,
+      #dbedff 76.67%,
+      #dfecff 80%,
+      #e3ebff 83.33%,
+      #e7eaff 86.67%,
+      #ebe8ff 90%,
+      #efe7ff 93.33%,
+      #f3e6fd 96.67%,
+      #f6e5fb 100%);
+}
+
+.btn-icoo {
+  padding: 12px !important;
 }
 
 
 
-.btn-a-degradado   :hover {
+.btn-a-degradado :hover {
   color: #000000 !important;
   /*background-image: linear-gradient(
     75deg,
@@ -220,7 +218,7 @@ main {
   padding: 2px !important;
 }
 
-.bg-a-contacto-form{
+.bg-a-contacto-form {
   background-color: #e8f0fe;
   margin: auto;
   padding: auto;
@@ -230,16 +228,16 @@ main {
   border-radius: 20px;
 }
 
-#ico{
+#ico {
   width: auto;
   height: auto;
   margin-top: 1px;
 }
 
 .btn-a-md {
-    font-size: 14px;
-    border-radius: 0.1875rem;
-    padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 0.1875rem;
+  padding: 5px 15px;
 }
 
 a title {
@@ -251,4 +249,118 @@ a title {
 [data-aos] {
   opacity: 1 !important;
   transform: translate(0) scale(1) !important;
+}
+
+
+/*BOTON FLOTANTE DE W*/
+.contenedor_float {
+  width: 90px;
+  height: 1700px !important;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.botonF1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #44ff00;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: .3s;
+}
+
+span {
+  transition: .5s;
+}
+
+.botonF1:hover span {
+  transform: rotate(360deg);
+}
+
+.botonF1:active {
+  transform: scale(1.1);
+}
+
+.btnf {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  background-color: #FFF;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-size: 28px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 26px;
+  transform: scale(0);
+}
+
+.botonF2 {
+  background: #ffffff;
+  margin-bottom: 85px;
+  transition: 0.5s;
+  color: #22a3c7;
+}
+
+.botonF3 {
+  background: #fbfbfd;
+  margin-bottom: 130px;
+  transition: 0.7s;
+  color: white;
+}
+
+.botonF4 {
+  background: #ffffff;
+  margin-bottom: 175px;
+  transition: 0.9s;
+}
+
+.botonF5 {
+  background: #ffffff;
+  margin-bottom: 220px;
+  transition: 0.99s;
+}
+
+
+.botonF6 {
+  background: #ffffff;
+  margin-bottom: 265px;
+  transition: 0.99s;
+}
+
+
+.c1 {
+  color: #00a7f5;
+}
+.c2 {
+  color: rgb(0, 0, 0);
+}
+
+.c3 {
+  color: #3478d1;
+}
+
+.c4 {
+  color: #6529b9;
+}
+
+.c5 {
+  color: #034cb1;
+}
+
+
+.animacionVer {
+  transform: scale(1);
 }
