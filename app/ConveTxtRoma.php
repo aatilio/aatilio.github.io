@@ -156,6 +156,9 @@ function ConverNumRomano($num)
     <meta name="keywords" content="HTML5, CSS3, php">
     <title> Conversor </title>
     <link rel="stylesheet" href="main.css">
+
+    <link rel="icon" type="image/x-icon" href="../icons/co-blue.png" />
+
 </head>
 
 <body class="home">
